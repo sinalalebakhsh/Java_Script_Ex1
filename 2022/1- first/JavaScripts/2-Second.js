@@ -15,4 +15,7 @@ function SinaAlert() {
     alert(seh)
 }
 
-// SinaAlert()
+var list_names = ['sina', 'lale', 'mina', 'jale', 'lina']
+
+document.write(list_names[0] , '  ' , list_names[1] , '  ' ,
+               list_names[2] , '  ' , list_names[3])
