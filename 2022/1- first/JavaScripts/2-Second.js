@@ -8,12 +8,11 @@ var IsExists = true;
 
 alert('Wellcome to this site my frind :)');
 
-function SinaAlert()
-{
+function SinaAlert() {
     var yek = 1001;
     var doo = 30;
     var seh = yek + doo;
     alert(seh)
 }
 
-SinaAlert()
+// SinaAlert()
