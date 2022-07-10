@@ -1,0 +1,1 @@
+alert('Wellcome to this site my frind :)');
