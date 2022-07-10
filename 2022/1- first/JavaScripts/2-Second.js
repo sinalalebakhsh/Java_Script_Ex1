@@ -6,7 +6,14 @@ var Number = 1371;
 var IsExists = true;
 
 
-alert(typeof 'Wellcome to this site my frind :)');
-alert(typeof Name);
-alert(typeof Number);
-alert(typeof IsExists);
+alert('Wellcome to this site my frind :)');
+
+function SinaAlert()
+{
+    var yek = 1001;
+    var doo = 30;
+    var seh = yek + doo;
+    alert(seh)
+}
+
+SinaAlert()
