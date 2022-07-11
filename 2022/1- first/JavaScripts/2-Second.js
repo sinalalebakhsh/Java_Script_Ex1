@@ -12,10 +12,10 @@ function SinaAlert() {
     var yek = 1001;
     var doo = 30;
     var seh = yek + doo;
-    alert(seh)
+    alert(seh);
 }
 
-var list_names = ['sina', 'lale', 'mina', 'jale', 'lina']
+var list_names = ['sina', 'lale', 'mina', 'jale', 'lina'];
 
-document.write(list_names[0] , '  ' , list_names[1] , '  ' ,
-               list_names[2] , '  ' , list_names[3])
+document.write(list_names[0]);
+
