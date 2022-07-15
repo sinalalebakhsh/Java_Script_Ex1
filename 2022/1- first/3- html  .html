@@ -15,19 +15,24 @@
     <br>
     Number 2 : <input type="number" id="num2" />
     <br>
-    <input type="button" value="Click Here!" onclick="Sum()"/>
+    <input type="button" value="Click Here!" onclick="Sum()" />
     <br>
     <h2 id="lblResult">Result</h2>
- 
+
 </body>
 
-    <script>
+<script>
 
-        function SayHello(){
-            alert('Hello :)');
-        }
-        
-        SayHello();
-    </script>
+    function SayHello() {
+        alert('Hello :)');
+    }
+
+    SayHello();
+
+    function SumNum(a, b) {
+        return a + b;
+    }
+    alert(SumNum(10, 7));
+</script>
 
 </html>
