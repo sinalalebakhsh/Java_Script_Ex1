@@ -25,9 +25,12 @@
         name : 'sina',
         family : 'lalenakhsh',
         age : 29,
+        fullname : function() {
+            return this.name + " " + this.family;
+        }
     };
     
-    console.log(person.name);
+    console.log(person.fullname());
 
 </script>
 
