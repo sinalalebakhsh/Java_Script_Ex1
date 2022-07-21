@@ -17,11 +17,14 @@
     <br>
     <h2 id="lbl">Result</h2>
     <br>
-    <input type="button" value="Click Here!" onclick="document.getElementById('lbl').innerHTML=Date()" />
+    <input type="button" value="Click Here!" onclick="ShowDate()" />
 
 </body>
 <script>
 
+    function ShowDate(){
+        document.getElementById('lbl').innerHTML=Date()
+    }
 
 </script>
 
