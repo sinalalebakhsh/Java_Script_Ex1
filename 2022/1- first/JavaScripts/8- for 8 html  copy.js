@@ -1,15 +1,24 @@
 
 <script>
 
-    var morning = 6;
-    var noon = 12;
-    var night = 21;
-    var time = Number;
+        var x = "xx";
 
-    if (time == morning) {
-        alert("True ###");
-} else if (time == Number) {
-        alert("time == Number");
-}
+        switch(x)
+        {
+                case 0:
+                {
+                        alert("x is 0");
+                }
+                case 1:
+                {
+                        alert("x is 1");
+                }
+                default:
+                {
+                        alert("x is'n found ");
+
+                }
+        }
+
 
 </script>
