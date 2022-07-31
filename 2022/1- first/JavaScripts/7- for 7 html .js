@@ -1,20 +1,15 @@
 
-    // <input type="button" value="Click Here!" onclick="ShowDate()" />
-    // <br>
-    // <br>
-    // <button onclick="this.innerHTML=Date()">Show Date here </button>
-    // <br>
-    // <br>
-    // <input type="text" onchange='ChangeInput(this.value)'/>
-
 <script>
 
-    function ShowDate(){
-        document.getElementById('lbl').innerHTML=Date();
-    }
+    var morning = 6;
+    var noon = 12;
+    var night = 21;
+    var time = Number;
 
-    function ChangeInput(value){
-        document.getElementById('lbl').innerHTML=value;
-    }
+    if (time == morning) {
+        alert("True ###");
+} else if (time == Number) {
+        alert("time == Number");
+}
 
 </script>
