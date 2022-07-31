@@ -1,6 +1,3 @@
-
-<script>
-
 switch(new Date().getDay())
     {
         case 0:
@@ -40,5 +37,3 @@ switch(new Date().getDay())
             }
 
     }
-
-</script>
