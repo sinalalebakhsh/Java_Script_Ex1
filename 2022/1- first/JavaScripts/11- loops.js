@@ -4,7 +4,11 @@ var element = document.getElementById('result');
 
 var list_names_dynamic = "";
 
-
+for ( var i = 0 ; i<list_names.length ; i++ )
+{
+    list_names_dynamic += list_names[i] + " <br/>"
+}
+element.innerHTML = list_names_dynamic;
 
 
 
